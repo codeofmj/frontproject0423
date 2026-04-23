@@ -49,7 +49,7 @@ jobs:
             set -e
             sudo mkdir -p /usr/share/nginx/html
 
-      # 주의: /usr/share/nginx/html 이 이 프론트 전용일 때만 사용
+      # 주의: /usr/share/nginx/html 이 이 프론트 전용일 때만 사용.
       - name: Clean old frontend files
         uses: appleboy/ssh-action@v1.0.3
         with:
